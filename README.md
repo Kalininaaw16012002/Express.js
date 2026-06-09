@@ -22,14 +22,12 @@ REST API для управления библиотекой: пользоват�
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/ВАШ_НИК/library-api.git
-cd library-api
+git clone https://github.com/Kalininaaw16012002/Express.js.git
 npm install
 Создайте .env:
 
 env
 PORT=3005
-MONGODB_URI=mongodb://127.0.0.1:27017/library_db
 Запуск:
 
 bash
@@ -85,20 +83,6 @@ json
 
 // 500
 { "error": "Внутренняя ошибка сервера", "message": "..." }
-Структура проекта
-text
-library-api/
-├── .env
-├── server.js
-├── models/
-│   ├── User.js
-│   └── Book.js
-├── routes/
-│   ├── users.js
-│   └── books.js
-└── middleware/
-    ├── connectDB.js
-    ├── errorHandler.js
-    └── logger.js
+
 Разработчик
 Калинина А.В. — учебный проект
